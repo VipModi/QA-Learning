@@ -22,19 +22,14 @@ It defines **specific steps** to perform **effective and organized testing** of 
 
 ## 🔁 **STLC Flow (Simplified)**
 
-+---------------------------+
-|   Requirement Analysis     |
-+---------------------------+
-|          Test Planning           |
-+---------------------------+
-|       Test Case Design        |
-+---------------------------+
-|   Test Environment Setup |
-+---------------------------+
-|          Test Execution         |
-+---------------------------+
-|           Test Closure            |
-+---------------------------+
+| **STLC Phase**                | **Entry Criteria**                                                            | **Exit Criteria**                                                | **Deliverables**                                                              | **Responsibilities**                   |
+| ----------------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------- | -------------------------------------- |
+| **1. Requirement Analysis**   | - Requirement documents available (BRD, SRS)  <br>- Application understanding | - All requirements analyzed and testable                         | - Requirement Traceability Matrix (RTM)  <br>- Clarification docs (if needed) | Test Manager, QA Leads, Senior Testers |
+| **2. Test Planning**          | - Requirements understood  <br>- RTM ready                                    | - Approved Test Plan and Strategy                                | - Test Plan  <br>- Effort/Resource Estimates  <br>- Risk analysis             | Test Manager, QA Lead                  |
+| **3. Test Case Design**       | - Approved Test Plan  <br>- RTM and Requirements ready                        | - Test cases written and peer-reviewed                           | - Test Cases  <br>- Test Data  <br>- Test Scripts (if any)                    | QA Testers, QA Leads                   |
+| **4. Test Environment Setup** | - Test plan finalized  <br>- Infrastructure requirements known                | - Environment configured and smoke tests passed                  | - Test Environment setup confirmation  <br>- Smoke Test Report                | DevOps/Infra Team, Testers             |
+| **5. Test Execution**         | - Test cases and test data ready  <br>- Environment stable                    | - All test cases executed  <br>- Defects logged and tracked      | - Test Execution Report  <br>- Defect Reports  <br>- Updated RTM              | QA Testers                             |
+| **6. Test Cycle Closure**     | - Testing complete  <br>- Defect closure confirmed                            | - Test Summary prepared  <br>- Test closure activities completed | - Test Summary Report  <br>- Lessons Learned  <br>- Final Test Closure Report | QA Leads, Test Manager                 |
 
 ---
 
@@ -67,6 +62,7 @@ Let’s say you are testing a **privacy toggle feature**:
     
 
 ---
+
 ### 📄 **Other Key Documents in the Testing Lifecycle**
 
 |Document|Purpose|When It's Used|
@@ -78,3 +74,5 @@ Let’s say you are testing a **privacy toggle feature**:
 |**Test Data**|Input data used for testing scenarios|During test execution|
 |**Test Summary Report**|Summary of overall testing activities, results, defect status|At the end of testing|
 |**Bug/Defect Reports**|Details of defects found during testing|As bugs are found|
+
+
