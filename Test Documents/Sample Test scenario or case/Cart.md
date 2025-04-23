@@ -93,15 +93,15 @@
 
 ## 🔍 **More Edge Cases for Cart Functionality**
 
-|Test Case ID|Description|
-|---|---|
-|TC_CART_EDGE_06|Add a product to cart, then delete the product from inventory (verify cart behavior).|
-|TC_CART_EDGE_07|Add products in bulk (e.g., 99+ items or hundreds of SKUs) to test max capacity or handling.|
-|TC_CART_EDGE_08|Add product A to cart, then change its variant (e.g., size or color) from the product page—verify cart update.|
-|TC_CART_EDGE_09|Add product to cart when not logged in, then log in—verify cart merges or replaces correctly.|
-|TC_CART_EDGE_10|Change address/location in the cart (if delivery/pincode impacts price or availability).|
-|TC_CART_EDGE_11|Apply a coupon, then remove the eligible product from the cart—check coupon validity.|
-|TC_CART_EDGE_12|Perform a cart operation while switching between tabs rapidly (concurrency behavior).|
-|TC_CART_EDGE_13|Simultaneously access cart from two browser tabs and update quantities—verify sync.|
-|TC_CART_EDGE_14|Add product to cart, then change system date/time and proceed to checkout—check if cart expiration affects flow.|
-|TC_CART_EDGE_15|Add the same product from different pages (e.g., search vs product page)—verify quantity updates and product uniqueness.|
+| Test Case ID    | Description                                                                                                              |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| TC_CART_EDGE_06 | Add a product to cart, then delete the product from inventory (verify cart behavior).                                    |
+| TC_CART_EDGE_07 | Add products in bulk (e.g., 99+ items or hundreds of SKUs) to test max capacity or handling.                             |
+| TC_CART_EDGE_08 | Add product A to cart, then change its variant (e.g., size or color) from the product page—verify cart update.           |
+| TC_CART_EDGE_09 | Add product to cart when not logged in, then log in—verify cart merges or replaces correctly.                            |
+| TC_CART_EDGE_10 | Change address/location in the cart (if delivery/pincode impacts price or availability).                                 |
+| TC_CART_EDGE_11 | Apply a coupon, then remove the eligible product from the cart—check coupon validity.                                    |
+| TC_CART_EDGE_12 | Perform a cart operation while switching between tabs rapidly (concurrency behavior).                                    |
+| TC_CART_EDGE_13 | Simultaneously access cart from two browser tabs and update quantities—verify sync.                                      |
+| TC_CART_EDGE_14 | Add product to cart, then change system date/time and proceed to checkout—check if cart expiration affects flow.         |
+| TC_CART_EDGE_15 | Add the same product from different pages (e.g., search vs product page)—verify quantity updates and product uniqueness. |
