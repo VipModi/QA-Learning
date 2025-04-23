@@ -324,6 +324,41 @@ You can say:
 |Stage|Before release|After alpha, before final release|
 |Purpose|Identify bugs early|Get user feedback|
 
+
+### **6️⃣ What is Bug Leakage?**
+
+**Definition:**  
+Bug Leakage occurs when a **bug is missed during the testing phase** and is later **found by the end user or customer after the product is released**.
+
+**Example:**  
+Let’s say you tested a messaging feature thoroughly but missed a scenario where messages with emojis crash the app. After release, a user reports this issue. This is **bug leakage**.
+
+**Why it happens:**
+- Incomplete test coverage
+- Unclear requirements
+- Environment differences (dev vs prod)
+- Lack of regression testing
+
+**Impact:**  
+Damages client trust, increases rework, and may affect reputation.
+
+---
+
+### **7️⃣ What is Bug Release?**
+
+**Definition:**  
+Bug Release refers to **intentionally releasing a software version with known bugs**, often **minor or low-priority ones**, with a clear note that these bugs will be fixed in future releases.
+
+**Example:**  
+A new version of the app is released with a known bug that causes a UI alignment issue in dark mode. Since it doesn't affect functionality and deadlines are tight, it’s noted and postponed.
+
+**Reasons for Bug Release:**
+- Deadlines and business pressure
+- Bug has low severity or impact
+- Fix is already planned for the next sprint/release
+
+**Best Practice:**  
+Document the known bugs clearly in the release notes.
 ---
 
 ## 🛠 **Testing Process and Best Practices**
